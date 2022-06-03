@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js.js"></script>
+    <title>Document</title>
+</head>
+<body style="background:rgb(0, 1, 56);">
+    
+    <div id="box" class="container border bg-white border-second p-1 shadow rounded-5" style="width:500px;">
+        <div class="row p-3">
+            <div class="col shadow  w-50 p-2" style="position:relative; height: 40px;" id="display"></div>
+            <div class="col shadow w-50 p-2" style="position:relative; height: 40px;" id="view"></div>
+            
+        </div>
+        <div class="row p-3 gap-2   ">
+            <div class="col btn shadow p-3 fs-4 width btn-outline-warning" onclick="display(this)">7</div>
+            <div class="col btn shadow p-3 fs-4 width btn-outline-warning" onclick="display(this)">8</div>
+            <div class="col btn shadow p-3 fs-4 width btn-outline-warning" onclick="display(this)">9</div>
+            <div class="col btn shadow p-3 fs-4 width btn-outline-success" onclick="display(this)">+</div>
+        </div>
+        
+        <div class="row p-3 gap-2   ">
+            <div class="col btn shadow p-3 fs-4 width btn-outline-warning" onclick="display(this)">4</div>
+            <div class="col btn shadow p-3 fs-4 width btn-outline-warning" onclick="display(this)">5</div>
+            <div class="col btn shadow p-3 fs-4 width btn-outline-warning" onclick="display(this)">6</div>
+            <div class="col btn shadow p-3 fs-4 width btn-outline-success" onclick="display(this)">-</div>
+        </div>
+
+        
+        <div class="row p-3 gap-2   ">
+            <div class="col btn shadow p-3 fs-4 width btn-outline-warning" onclick="display(this)">1</div>
+            <div class="col btn shadow p-3 fs-4 width btn-outline-warning" onclick="display(this)">2</div>
+            <div class="col btn shadow p-3 fs-4 width btn-outline-warning" onclick="display(this)">3</div>
+            <div class="col btn shadow p-3 fs-4 width btn-outline-success" onclick="display(this)">*</div>
+        </div>
+
+
+        <div class="row p-3 gap-2   ">
+            <div class="col p-3 fs-4 width" ></div>
+            <div class="col btn shadow p-3 fs-4 width btn-outline-warning" onclick="display(this)">0</div>
+            <div class="col btn border-danger shadow p-3 fs-4 width bg-danger" onclick="display(this)">c</div>
+            <div class="col btn shadow p-3 fs-4 width btn-outline-success" onclick="display(this)">/</div>
+        </div>
+        <div class="row p-3 gap-2   ">
+            <div class="col p-3 fs-4 width btn shadow btn-outline-primary" onclick="calculate()">=</div>
+        </div>
+
+    </div>
+    <div style="width:100px; height:50px; position: relative; top:-400px; left: 80%;" class=" text-center text-success fs-1">NY</div>
+
+</body>
+</html>
